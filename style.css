@@ -1,0 +1,162 @@
+body{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: black;
+}
+header{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    line-height: 100px;
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+}
+.logo{
+    font-size: 40px;
+    font-family: arial;
+    color: #FC81C4;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: inline-block;
+    padding-left: 80px;
+    /* border: 2px solid green; */
+}
+.nav_bar{
+    display: inline-block;
+    padding-left: 300px;
+    /* border: 2px solid green; */
+}
+.nav_bar li{
+    display: inline-block;
+    list-style-type: none;
+}
+.nav_bar li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-weight: bold;
+}
+.background_banner{
+    background-image: url("./img/edu.jpg");
+    height: 700px;
+    width: 1200px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: right;
+}
+.banner_header{
+    padding: 50px;
+}
+.banner_header span{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #498BF9;
+
+}
+.banner_header h4{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.banner_content li{
+    display: inline-block;
+    list-style-type: none;
+    text-transform: capitalize;
+    padding: 30px;
+    background-color: #FC81C4;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+.kids_love{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #38C4C3;
+    color: rgb(210, 218, 226);
+    border: 1px solid #38C4C3;
+}
+.kids_love h3{
+    color: aliceblue;
+    font-size: 40px;
+    padding: 100px 0px 0px 300px;
+    text-transform: capitalize;
+    /* border: 2px solid red; */
+}
+.kids_love p{
+    padding-left: 500px;
+    width: 600px;
+    font-size: 20px;
+}
+.about_us{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #fff;
+}
+.about_upper{
+    text-align: center;
+    padding-top: 100px;
+}
+.about_upper span{
+    font-size: 30px;
+    color: rgb(110, 107, 102);
+    text-transform: uppercase;
+}
+.about_upper h3{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.about_details{
+    background-image: url("./img/ab_back.png");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position-x: 600px;
+    background-position-y: right;
+    padding-left: 100px;
+}
+.our_mission{
+    width: 200px;
+    padding: 10px;
+    display: inline-block;
+    color: rgb(110, 107, 102);
+}
+.our_mission .diamond{
+    width: 30%;
+    height: 30%;
+}
+.our_mission h3{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.our_mission img{
+    width: 100%;
+    
+    padding-top: 30px;
+}
+.teachers{
+    width: 200px;
+    padding: 10px;
+    display: inline-block;
+    color: rgb(110, 107, 102);
+}
+.teachers h3{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.teachers .people{
+    width: 30%;
+    height: 30%;
+}
+.teachers img{
+    width: 100%;
+    padding-top: 30px;
+}
