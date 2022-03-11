@@ -1,8 +1,9 @@
+
 body{
-    width: 1300px;
-    margin: 0 auto;
-    padding: 0 auto;
     background-color: black;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Redressed&family=Shizuru&family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
 }
 header{
     width: 1200px;
@@ -56,8 +57,8 @@ header{
     text-transform: uppercase;
     font-weight: bolder;
     color: #498BF9;
-
 }
+
 .banner_header h4{
     font-size: 15px;
     font-weight: bolder;
@@ -71,7 +72,29 @@ header{
     color: aliceblue;
     font-weight: bold;
     font-size: 30px;
+    /* border: 1px solid red; */
 }
+.learing i{
+    background-color: #FC81C4;
+    color: #dedbe7;
+    padding-left: 40px;
+}
+.philosophy i{
+    background-color: #FC81C4;
+    color: #dedbe7;
+    padding-left: 60px;
+}
+.practice i{
+    background-color: #FC81C4;
+    color: #dedbe7;
+    padding-left: 30px;
+}
+.games i{
+    background-color: #FC81C4;
+    color: #dedbe7;
+    padding-left: 30px;
+}
+
 .kids_love{
     width: 1200px;
     height: 500px;
@@ -97,7 +120,7 @@ header{
     width: 1200px;
     margin: 0 auto;
     padding: 0 auto;
-    background-color: #fff;
+    background-color: aliceblue;
 }
 .about_upper{
     text-align: center;
@@ -125,25 +148,34 @@ header{
 }
 .our_mission{
     width: 200px;
+    height: 300px;
     padding: 10px;
     display: inline-block;
     color: rgb(110, 107, 102);
 }
 .our_mission .diamond{
-    width: 30%;
-    height: 30%;
+    width: 15%;
+    height: 15%;
 }
 .our_mission h3{
     font-size: 20px;
     text-transform: uppercase;
+    
 }
 .our_mission img{
-    width: 100%;
-    
-    padding-top: 30px;
+    width: 100%; 
+    padding-top: 63px;
+}
+.our_mission button{
+    color: #FC81C4;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: aliceblue;
 }
 .teachers{
     width: 200px;
+    height: 300px;
     padding: 10px;
     display: inline-block;
     color: rgb(110, 107, 102);
@@ -153,10 +185,265 @@ header{
     text-transform: uppercase;
 }
 .teachers .people{
-    width: 30%;
-    height: 30%;
+    width: 15%;
+    height: 15%;
 }
 .teachers img{
     width: 100%;
+    padding-top: 63px;
+}
+.teachers button{
+    color: #FC81C4;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background-color: aliceblue;
+}
+.key_feature{
+    background-color: #FFCB03;
+    color: aliceblue;
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.key_header{
+    text-align: center;
     padding-top: 30px;
+}
+.key_header h3{
+    margin: 0 auto;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: normal;
+}
+.feature{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 60px;
+}
+.key_header h2{
+    text-transform: uppercase;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0 auto;
+}
+
+.f_environment{
+    background-color: aliceblue;
+    display: inline-block;
+    color: rgb(47, 43, 43);
+    padding: 20px;
+    width: 230px;
+}
+.f_environment h2{
+    font-size: 20px;
+    font-weight: normal;
+    color: #F57CC1;
+    text-transform: uppercase;
+}
+.f_learning{
+    padding: 20px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-left: 15px;
+    width: 230px;
+    color: rgb(47, 43, 43);
+}
+.f_learning h2{
+    color: #5782DE;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+}
+.f_lessons{
+    padding: 20px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin-left: 15px;
+    width: 230px;
+    color: rgb(47, 43, 43);
+}
+.f_lessons h2{
+    color: #45BDB4;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+}
+.f_teachers{
+
+    background-color: aliceblue;
+    display: inline-block;
+    margin-left: 15px;
+    width: 210px;
+    padding: 20px;
+    color: rgb(47, 43, 43);
+}
+.f_teachers h2{
+    color: #F0CD37;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.innovation_method{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1200px;
+    background-color: aliceblue;
+    /* border: 1px solid red; */
+}
+.innovation_img{
+    display: inline-block;
+    width: 560px;
+    padding-left: 100px;
+    /* border: 1px solid rgb(93, 238, 9); */
+}
+.innovation_para{
+    display: inline-block;
+    padding-left: 70px;
+    width: 350px;
+    /* border: 1px solid rgb(66, 13, 212); */
+    height: 100%;
+}
+.innovation_para h2{
+    margin: 0 auto;
+    font-size: 40px;
+    color: #3C8BFB;
+}
+.innovation_para p{
+    font-size: 20px;
+    color: #868282;
+}
+p span{
+    color: #F57CC1;
+}
+.innovation_para span{
+    color: #F57CC1;
+}
+.enroll_child{
+    background-color: #498CF4;
+    width: 1200px;
+    padding: 0 auto;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+}
+.enroll_child h3{
+    margin: 0 auto;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 100px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.enroll_details p{
+    display: inline-block;
+    width: 400px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+
+}
+.location{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 1200px;
+    text-align: center;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+.west_street i{
+    height: 30px;
+    width: 30px;
+    background-color: #F57CC1;
+    border-radius: 30px;
+    color: whitesmoke;
+    padding: 20px;
+    
+}
+.west_street{
+    display: inline-block;
+    padding: 100px;
+    
+}
+
+.phone_number{
+    display: inline-block;
+    padding: 100px;
+}
+.phone_number i{
+    height: 30px;
+    width: 30px;
+    background-color: #c7f10b;
+    border-radius: 30px;
+    color: whitesmoke;
+    align-items: center;
+    padding: 20px;
+    
+}
+.gmail{
+    display: inline-block;
+    padding: 100px;
+}
+.gmail i{
+    height: 30px;
+    width: 30px;
+    background-color: #38C4C3;
+    color: whitesmoke;
+    border-radius: 30px;
+    padding: 20px;
+}
+.social_media{
+    background-color: #F57CC1;
+    color: whitesmoke;
+    width: 1200px;
+    padding: 9 auto;
+    margin: 0 auto;
+}
+.headline1{
+    display: inline-block;
+    width: 200px;
+    padding-left: 100px;
+    text-transform: uppercase;
+    padding-top: 100px;
+
+}
+.headline2{
+    display: inline-block;
+    width: 200px;
+    padding-left: 150px;
+    text-transform: uppercase;
+    padding-top: 100px;
+
+}
+.headline3{
+    display: inline-block;
+    width: 200px;
+    padding-left: 150px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+.media_icon{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.media_icon i{
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    background-color: #868282;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    line-height: 100px;
+}
+footer p{
+    margin: 0 auto;
+    color: #ffffff;
+
 }
