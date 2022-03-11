@@ -354,6 +354,7 @@ p span{
     text-align: center;
     font-size: 20px;
     background-color: aliceblue;
+    text-transform: uppercase;
 }
 .west_street i{
     height: 30px;
@@ -366,13 +367,13 @@ p span{
 }
 .west_street{
     display: inline-block;
-    padding: 100px;
+    padding: 80px;
     
 }
 
 .phone_number{
     display: inline-block;
-    padding: 100px;
+    padding: 80px;
 }
 .phone_number i{
     height: 30px;
@@ -386,7 +387,7 @@ p span{
 }
 .gmail{
     display: inline-block;
-    padding: 100px;
+    padding: 80px;
 }
 .gmail i{
     height: 30px;
